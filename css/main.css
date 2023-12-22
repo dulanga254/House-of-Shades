@@ -1,0 +1,599 @@
+/*styling page body*/
+body{
+	width: 1200px;
+	margin: auto;
+	padding: 0px;
+	font-family: arial;
+}
+
+
+/*styling header*/
+
+.header{
+	height: 160px;
+}
+
+/*styling logo section*/
+.logo{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+/*styling logo image*/
+.logo a img{
+	width: 150px;
+}
+
+/*styling navigation bar section*/
+.nav{
+	width: 900px;
+	height: 150px;
+	float: left;
+}
+
+/*styling navigation bar unordered list*/
+.nav ul{
+	margin-top: 55px;
+	list-style: none;
+	display: inline-flex;
+}
+
+/*styling navigation bar items*/
+.nav ul li{
+	margin-right: 30px;
+}
+
+.nav ul li:last-child{
+	margin-right: 0px;
+}
+
+/*styling navigation bar links*/
+.nav ul li a{
+	margin-right: 25px;
+	color: black;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.nav ul li a:last-child{
+	margin-right: 0px;
+}
+
+/*styling navigation bar items hover effects */
+.nav ul li a:hover{
+	background: darkcyan;
+	color: white;
+	transition: 500ms;
+}
+
+/*styling navigation bar clicked item*/
+.highlighted{
+	border-bottom: 5px groove ;
+}
+
+/*styling login / signup button*/
+.header-button{
+	width: 150px;
+	float: left;
+	margin-top: 50px;
+}
+
+/*styling login / signup button link*/
+.header-button a{
+	padding: 8px 8px;
+	background: cyan;
+	border-radius: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	transition: 200ms;
+}
+
+/*styling login / signup button hover effect*/
+.header-button a:hover{
+	background: maroon;
+	color: white;
+	box-shadow: 2px 2px 5px grey;
+}
+
+/*styling homepage*/
+
+/*styling banner div tag*/
+.banner-div{
+	border: 2px solid darkcyan;
+}
+
+/*styling horizontal line*/
+hr{
+	height: 3px;
+	background: darkcyan;
+	border: none;
+}
+
+/*styling banner image*/
+.banner{
+	width: 100%;
+	display: none;
+}
+
+/*styling introduction div tag*/
+.our-story{
+	margin-top: 50px;
+}
+
+/*styling introduction section*/
+.our-story section{
+	width: 560px;
+	height: 600px;
+	float: left;
+	background: black;
+	padding: 0px 20px;
+}
+
+.our-story section h2{
+	color: white;
+	font-size: 50px;
+}
+
+.our-story section p{
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.our-story section img{
+	width: 600px;
+}
+
+/*styling about our services div tag*/
+.about-business{
+	margin-top: 100px;
+	float: left;
+}
+
+/*styling about our services div tag*/
+.about-business section{
+	width :248px;
+	height: 350px;
+	padding: 20px;
+	margin: 0px 8px 8px 8px;
+	float: left;
+	background: whitesmoke;
+}
+
+.about-business section:first-child{
+	margin-left: 0px;
+}
+
+.about-business section:last-child{
+	margin-right: 0px;
+}
+
+.about-business section img{
+	width: 125px;
+	border: 3px solid cyan;
+	border-radius: 150px;
+	margin-top: -60px;
+}
+
+.about-business section img:hover{
+	border: 3px solid red;
+	transition: 500ms;
+}
+
+/*styling mission and vision div tag*/
+.mission-and-vision{
+	margin-top: 25px;
+	float: left;
+	/*background: url(../images/vision-and-mission-background.jpg);*/
+}
+
+/*styling mission and vision sections*/
+.mission-and-vision section{
+	width: 555px;
+	height: 300px;
+	margin-right: 10px;
+	float: left;
+	padding: 0px 20px;
+	color: white;
+	border-radius: 10px;
+	background: url(../images/vision-and-mission-background.jpg);
+}
+
+.mission-and-vision section:last-child{
+	margin-right: 0px;
+}
+
+.mission-and-vision section h2{
+	font-size: 40px;
+}
+
+.mission-and-vision section p{
+	font-size: 20px;
+}
+
+/*styling footer*/
+
+/*styling footer tag*/
+footer{
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+}
+
+/*styling footer links*/
+.footer-links{
+	width: 100%;
+	float: left;
+	padding-bottom: 30px;
+	background-color: black;
+}
+
+/*styling footer section 1*/
+.footer-sec1{
+	width: 22%;
+	float: left;
+	margin-left: 10%;
+	color: white;
+}
+
+/*styling footer section 2*/
+.footer-sec2{
+	width: 22%;
+	float: left;
+	margin-left: 7%;
+	color: white;
+}
+
+/*styling footer section 3*/
+.footer-sec3{
+	width: 22%;
+	float: left;
+	margin-left: 7%;
+	color: white;
+}
+
+/*styling footer section h3 tag*/
+.footer-sec1 h3,.footer-sec2 h3, .footer-sec3 h3{
+	text-decoration: underline;
+}
+
+.footer-sec1 a, .footer-sec3 a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	background-color: #55d7d9;
+	font-weight: 600;
+}
+
+.footer-sec1 a:hover, .footer-sec3 a:hover{
+	background-color: darkred;
+	color: white;
+	transition: 500ms;
+}
+
+.footer-sec2 ul li{
+	display: inline-flex;
+	margin-left: 10px;
+	float: left;
+}
+
+.footer-sec2 ul li:first-child{
+	margin-left: 0px;
+}
+
+.footer-sec2 ul li a img{
+	width: 40px;
+	align-items: center;
+	border: 1px solid white;
+	border-radius: 25px;
+	filter: brightness(120%);
+}
+
+.footer-sec2 ul li a img:hover{
+	filter: sepia(100%);
+}
+
+/*styling copyright section*/
+.copyright{
+	width: 100%;
+	float: left;
+	background-image: linear-gradient(to right, black, whitesmoke, black);
+}
+
+/*styling contact us page*/
+
+/*styling top message in contact us page*/
+.contact-text{
+	width: 1160px;
+	margin: auto;
+	background: whitesmoke;
+	padding: 10px 20px; 
+}
+
+/*styling ask a question section*/
+.ask-a-question{
+	width: 640px;
+	float: left;
+	margin: 0px 30px;
+}
+
+.ask-a-question input{
+	font-size: 18px;
+}
+
+.ask-a-question textarea{
+	font-size: 18px;
+}
+
+/*styling submit and reset buttons*/
+.contact-us-buttons{
+	background: darkcyan;
+	color: white;
+	padding: 10px 59px;
+	border-radius: 20px;
+	transition: 500ms;
+}
+
+.contact-us-buttons:hover{
+	background: maroon;
+}
+
+/*styling contact details section*/
+.contact-us{
+	width: 440px;
+	float: left;
+	margin: 0px 30px;
+}
+
+/*styling map*/
+.map{
+	width: 1200px;
+	float: left;
+}
+
+/*styling gallery page*/
+
+/*styling images in gallery page*/
+.gallery-images img{
+	width: 234px;
+	border: 1px solid darkcyan;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	transition: 200ms;
+	background: whitesmoke;
+}
+
+.gallery-images img:hover{
+	box-shadow: 1px 2px 5px black;
+	transform: scale(1.1);
+}
+
+/*styling products pages*/
+
+/*styling first image in each column*/
+#first-image{
+	margin-left: 0px;
+}
+
+/*styling top 2 images in product page*/
+.top-images img{
+	width: 593px;
+	float: left;
+	margin: 10px 0px;
+	border: 1px solid darkcyan;
+	transition: transform .2s;
+}
+
+/*styling bottom 3 images in product page*/
+.top-images img:hover, .bottom-images img:hover{
+	transform: scale(1.05);
+	border: 1px solid maroon;
+}
+
+/*styling first image in top row*/
+#abc{
+	margin-right: 10px;
+}
+
+.bottom-images img{
+	width: 391.3px;
+	float: left;
+	margin-left: 10px;
+	border: 1px solid darkcyan;
+	transition: transform .2s;
+}
+
+/*styling first image in bottom row*/
+#def{
+	margin-left: 0px;
+}
+
+/*styling page number div tag*/
+.page-number{
+	float: left;
+	margin-top: 20px;
+	margin-left: 330px;
+}
+
+/*styling page number links*/
+.page-number a{
+	margin-right: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+/*styling preview and next page buttons*/
+.prev-and-next{
+	background: darkblue;
+	padding: 5px 10px;
+}
+
+.number{
+	border: 1px solid darkblue;
+	padding: 5px 10px;
+	background: darkblue;
+	transition: 500ms;
+}
+
+ /*styling page numbers*/
+.number:hover{
+	background: red;
+}
+
+/*styling current page number*/
+#highlighted{
+	border: 1px solid red;
+	background: red;
+}
+
+/*styling product details pages*/
+
+/*styling sales message div tag*/
+.sale-details{
+	color: white;
+	background: darkcyan;
+	text-align: center;
+	padding: 10px;
+}
+
+.sale-details span{
+	font-size: 30px;
+}
+
+/*styling product spec div tag*/
+.details{
+	margin-top: 25px;
+}
+
+/*styling image*/
+.image img{
+	margin-top: 75px;
+	width: 700px;
+	float: left;
+	border: 2px solid darkcyan;
+}
+
+/*styling specification section*/
+.spec{
+	margin-left: 30px;
+	float: left;
+}
+
+.spec table tr td{
+	padding: 2px 5px;
+}
+
+#brand{
+	font-size: 24px;
+	height: 50px;
+}
+
+#price{
+	font-size: 22px;
+	height: 40px;
+}
+
+#qty{
+	height: 50px;
+}
+
+/*styling add to cart and buy it now buttons*/
+.buttons{
+	height: 35px;
+}
+
+.buttons td{
+	background: darkcyan;
+}
+
+.buttons td:hover{
+	background: maroon;
+	transition: 500ms;
+}
+
+.buttons a{
+	width: 200px;
+	text-decoration: none;
+	font-weight: 600;
+	color: white;
+	padding: 5px 170px;
+}
+
+/*styling sinn-up and login pages*/
+
+/*styling content*/
+.wrapper{
+	width: 700px;
+	height: 400px;
+	margin: 50px auto;
+	border: 3px solid darkcyan;
+}
+
+/*styling left side panel*/
+.login-left{
+	width: 200px;
+	height: 400px;
+	background: darkcyan;
+	float: left;
+}
+
+/*styling home button*/
+#home{
+	background: maroon;
+	color: white;
+	border-radius: 15px;
+}
+
+#home:hover{
+	color: darkblue;
+	background: lightsalmon;
+}
+
+.login-left h2{
+	color: white;
+	margin-top: 100px;
+}
+
+.login-left p{
+	color: white;
+}
+
+/*styling login and signup buttons*/
+.login-left a{
+	text-decoration: none;
+	background: whitesmoke;
+	color: darkcyan;
+	padding: 5px 25px;
+	border-radius: 15px;
+	transition: 500ms;
+}
+
+.login-left a:hover{
+	background: maroon;
+	color: white;
+}
+
+/*styling text fields*/
+.login-right input{
+	font-size: 18px;
+	height: 30px;
+}
+
+/*styling login and signup buttons in form section*/
+.form-button{
+	padding: 0px 30px;
+	background: darkcyan;
+	color: white;
+	border-radius: 5px;
+	transition: 500ms;
+}
+
+.form-button:hover{
+	background: maroon;
+	color: white;
+}
